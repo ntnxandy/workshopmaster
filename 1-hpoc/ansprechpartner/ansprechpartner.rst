@@ -15,11 +15,11 @@ Wenn es doch mal klemmt, sind Sie aber nicht alleine. Also keine Angst davor sic
    :widths: 40
    :header-rows: 1
 
-   * - **Martin Stenke**
-   * - .. figure:: images/MStenke.png
-   * - **Senior Systems Engineer**
-   * - Leonberg, Baden-Wuerttemberg
-   * - Seit September 2018 bei Nutanix
-   * - +49 160 / 8540279
-   * - martin.stenke@nutanix.com
+   * - **Andreas Ehrenreiter**
+   * - .. figure:: images/AEhrenreiter.png
+   * - **Cloud Architect**
+   * - München, Bayern
+   * - Seit Februar 2016 bei Nutanix
+   * - +4915111359466
+   * - andreas.ehrenreiter@nutanix.com
    
