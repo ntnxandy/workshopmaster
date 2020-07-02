@@ -149,11 +149,6 @@ The CCA is distributed as a bootable ISO image, not a disk image.
 
    - Select **Add New NIC**
       - **VLAN Name** - Primary
-
-         .. note::
-
-            Do **NOT** use your UserXX-Network. In CCA 2.1.X, the VM needs to exist in the same subnet as Prism Central. This issue is addressed in an upcoming release.
-
       - Select **Add**
 
 #. Click **Save** to create the VM.
@@ -167,9 +162,13 @@ The CCA is distributed as a bootable ISO image, not a disk image.
 Configuring the CCA
 +++++++++++++++++++
 
-#. Note the **IP Address** of the *Initials*\ **-FrameCCA** VM in Prism, and open in the IP in a new browser tab to access the **Cloud Connector Configuration** wizard.
+#. Note the **IP Address** of the *Initials*\ **-FrameCCA** VM in Prism, and open a new browser tab to \http://<*CCA-IP*>/ to access the **Cloud Connector Configuration** wizard.
 
    .. figure:: images/3.png
+
+   .. note::
+
+      Make sure you are using the same browser session as above. my.nutanix.com will look for the cookie.
 
 #. Fill in the following fields and click **Log In** to connect the CCA to your Nutanix environment:
 
@@ -182,10 +181,10 @@ Configuring the CCA
 #. Under **Select Cluster**, fill in the following fields and click **Next**:
 
    - **Cluster for virtual desktops** - *Your assigned cluster*
-   - **Network for virtual desktops** - *Your assigned user network*
+   - **Network for virtual desktops** - Primary
    - **Cloud account name** - *Initials*\ -\ *Cluster-Name*
 
-   .. figure:: images/5.png
+   .. figure:: images/5b.png
 
    .. note::
 
